@@ -1,10 +1,11 @@
 import "./index.scss";
 
+import Header from "../../../Components/Header";
 
 function LandingPageDivulgação() {
   return (
-    <main>
-        Olá
+    <main className="LandingPageDivulgacao">
+        <Header />
     </main>
   );
 }
