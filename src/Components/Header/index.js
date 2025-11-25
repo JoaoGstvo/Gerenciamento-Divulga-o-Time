@@ -10,7 +10,7 @@ function Header() {
             <div className='nav'>
                 <nav>Sobre nós</nav>
                 <nav>Contato</nav>
-                <nav>Login</nav>
+                {/* <nav>Login</nav> */}
                 {/* <nav>Administrador</nav> */}
             </div>
 
