@@ -4,7 +4,7 @@ function Header() {
     return (
         <header className="header">
             <div className='logo'>
-                <h1>Gerenciamento</h1>
+                <h2>Gerenciamento</h2>
             </div>
 
             <div className='nav'>

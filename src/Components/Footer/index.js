@@ -11,7 +11,7 @@ function Footer() {
             <a href="/">Login Atleta</a>
         </div>
 
-        <p>Projeto gerenciamento de time</p>
+        <p id="subtexto">Projeto gerenciamento de time</p>
 
         <div id="creditos">
             <p id="p-creditos">Desenvolvido por @chatGPT @Deepseek</p>

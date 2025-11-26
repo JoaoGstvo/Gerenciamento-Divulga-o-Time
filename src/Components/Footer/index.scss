@@ -1,6 +1,6 @@
 .footer {
     background-color: #17191a;
-    height: 25em;
+    height: 18em;
 
     margin-top: 50px;
 
@@ -13,13 +13,13 @@
 
         h1 {
             color: #ffffff;
-            font-size: 2em;
-            margin-top: 1.5em;
+            font-size: 1.8em;
+            margin-top: 1em;
         }
 
         p {
             color: #bbbbbb;
-            font-size: 1.1em;
+            font-size: 1em;
         }
 
         #subtitulo {
@@ -27,11 +27,15 @@
             margin-bottom: 1.5em;
         }
 
+        #subtexto {
+            margin-top: -0.1em;
+            margin-bottom: 1em;
+        }
         div {
             width: 25%;
             display: flex;
             justify-content: space-around;
-            margin-bottom: 0.7em;
+            margin-bottom: 0.8em;
         }
 
         #creditos {
@@ -40,14 +44,14 @@
             align-items: center;
             width: 65%;
             margin-top: 1em;
-            height: 4em;
+            height: 3em;
             // border: 1px solid yellow;
         }
 
         a {
             color: #ffffff;
             text-decoration: none;
-            font-size: 1.2em;
+            font-size: 1em;
             background-color: #121212;
             padding: 0.6em 2.8em;
             border: 1px solid #ffffff;
