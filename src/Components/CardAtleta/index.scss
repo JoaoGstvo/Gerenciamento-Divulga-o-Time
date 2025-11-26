@@ -1,0 +1,36 @@
+.cardAtleta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // border: 1px solid green;
+    height: 20em;
+    width: 17%;
+    border-radius: 1em;
+    box-shadow: 0 0 6px 3px rgba(255, 255, 255, 0.6);
+    color: #e5e5e5;
+
+
+
+    #imagem {
+        height: 50%;
+        width: 100%;
+        background-color: rgb(108, 108, 108);
+        border-radius: 1em 1em 0 0;
+    }
+
+    #informacoes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 1em;
+        margin-top: -0.8em;
+    }
+
+    p {
+        background-color: rgb(54, 54, 54);
+        border-radius: 0.3em;
+        padding: 0.2em 0.5em;
+        min-width: 100%;
+    }
+}

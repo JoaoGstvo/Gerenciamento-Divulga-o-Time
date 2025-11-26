@@ -9,7 +9,7 @@ function LandingPageDivulgação() {
     <main className="landingPageDivulgacao">
         <Header />
         <section>
-            {/* <CardAtleta /> */}
+            <CardAtleta />
         </section>
         <Footer />
     </main>

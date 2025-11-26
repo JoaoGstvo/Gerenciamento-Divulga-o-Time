@@ -1,6 +1,6 @@
 .footer {
     background-color: #17191a;
-    height: 18em;
+    height: 20em;
 
     margin-top: 50px;
 
@@ -14,7 +14,8 @@
         h1 {
             color: #ffffff;
             font-size: 1.8em;
-            margin-top: 1em;
+            margin-top: 0.8em;
+            margin-bottom: 1em;
         }
 
         p {
@@ -24,18 +25,19 @@
 
         #subtitulo {
             margin-top: -1.5em;
-            margin-bottom: 1.5em;
+            margin-bottom: 2em;
         }
 
         #subtexto {
             margin-top: -0.1em;
-            margin-bottom: 1em;
+            margin-bottom: 1.5em;
         }
         div {
-            width: 25%;
+            width: 28%;
             display: flex;
             justify-content: space-around;
-            margin-bottom: 0.8em;
+            margin-bottom: 1em;
+            margin-top: 0.3em;
         }
 
         #creditos {
