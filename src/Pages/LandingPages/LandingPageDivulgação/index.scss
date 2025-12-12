@@ -1,46 +1,45 @@
 .landingPageDivulgacao {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
-    .numeros {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+.numeros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #17191a;
+    flex: 1;
+    
+    .titulo {
+        margin-bottom: 1vh;
+        margin-top: -1em;
         align-items: center;
-        color: white;
-        background-color: #17191a;
-        height: 35vh;
-        
-        .titulo {
-            margin-bottom: 1vh;
-            margin-top: -1em;
-            align-items: center;
-            font-size: 1em;
-        }
+        font-size: 1em;
+    }
 
+    .informacoes {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        justify-content: space-around;
 
-        .informacoes {
+        div {
             display: flex;
-            flex-direction: row;
-            // background-color: green;
-            width: 80%;
-            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
 
-
-            div {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-
-                h2 {
-                    color: #1365f1;
-                }
-                
-                p {
-                    margin-top: -1em;
-                    font-size: 0.7em;
-                    color: #525050;
-                }
+            h2 {
+                color: #1365f1;
+            }
+            
+            p {
+                margin-top: -1em;
+                font-size: 0.7em;
+                color: #525050;
             }
         }
-
     }
 }
