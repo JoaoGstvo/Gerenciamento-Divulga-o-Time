@@ -68,6 +68,36 @@ function LandingPageDivulgacao() {
                 </div>
             </section>
 
+            
+            <section className="nossaHistoria">
+                <div className="informacoes">
+                    <div className="titulo">
+                        <h1>Nossa História</h1>
+                    </div>
+                    <div className="texto">
+                         <p>
+                            Fundado em 2019, o Projeto Handebol nasceu do sonho de unir atletas
+                            apaixonados pelo esporte e criar um ambiente de crescimento,
+                            competição e camaradagem.
+                        </p>
+
+                        <p>
+                            Ao longo dos anos, conquistamos diversos títulos regionais e
+                            formamos atletas que hoje competem em níveis estaduais e nacionais.
+                            Nosso compromisso vai além das quadras.
+                        </p>
+
+                        <p>
+                            Com treinos regulares e acompanhamento contínuo, seguimos formando
+                            novos talentos a cada temporada.
+                        </p>
+                    </div>
+                </div>
+                <div className="imagem">
+
+                </div>
+            </section>
+
             <section className="nossosValores">
                 <div className="titulo">
                     <h1>Nossos Valores</h1>

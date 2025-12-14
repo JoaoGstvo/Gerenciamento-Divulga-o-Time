@@ -4,15 +4,17 @@
     min-height: 100vh;
 
 
-    .numeros,
-    .sobreNos,
-    .nossosValores {
+    /* ================= NUMEROS ================= */
+    .numeros {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         color: white;
-        padding: 1.5rem 0;
+        padding: 1.5rem 0 3rem 0;
+
+        background-color: #17191a;
+        min-height: 20vh;
 
         .titulo {
             margin-bottom: 1.5rem;
@@ -20,16 +22,7 @@
         }
 
         .informacoes {
-            width: 95%;
-        }
-    }
-
-
-    .numeros {
-        background-color: #17191a;
-        min-height: 20vh;
-
-        .informacoes {
+            width: 70%;
             display: flex;
             justify-content: space-around;
 
@@ -53,12 +46,27 @@
         }
     }
 
-    .sobreNos,
-    .nossosValores {
+    
+    /* ================= SOBRE NOS ================= */
+    .sobreNos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 1.5rem 0 3rem 0;
+
         background-color: #121416;
         flex: 1;
+        padding-bottom: 3rem;
+
+        .titulo {
+            margin-bottom: 1.5rem;
+            font-size: 1em;
+        }
 
         .informacoes {
+            width: 90%;
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
@@ -93,19 +101,97 @@
                     margin-bottom: 0.2rem;
                 }
             }
-
         }
     }
 
-    .nossosValores {
 
-        background-color: #17191a !important;
+    /* ================= NOSSA HISTORIA ================= */
+    .nossaHistoria {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #17191a;
+        color: white;
+        padding: 3rem 0;
 
-        .info {
-            border: 1px solid #a0a0a0;
-            border-radius: 10px;
-            padding: 1.6em 2.6em;
+        .informacoes {
+            display: flex;
+            flex-direction: column;
+            width: 35%;
+
+            .texto {
+                line-height: 1.5;
+                color: #a0a0a0;
+            }
         }
 
+        .imagem {
+            width: 40%;
+            background-color: #121416;
+            border-radius: 15px;
+        }
+    }
+
+
+    /* ================= NOSSOS VALORES ================= */
+    .nossosValores {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 1.5rem 0 3rem 0;
+
+        background-color: #121416;
+        flex: 1;
+        padding-bottom: 4rem;
+
+        .titulo {
+            margin-bottom: 1.5rem;
+            font-size: 1em;
+        }
+
+        .informacoes {
+            width: 90%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 1rem;
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                flex: 1;
+                min-width: 200px;
+                max-width: 200px;
+                min-height: 3em;
+
+                border: 1px solid #a0a0a0;
+                border-radius: 10px;
+                padding: 2em 0.5em 0.5em 0.5em;
+
+                h3 {
+                    font-size: 1.2em;
+                    margin-bottom: 0.5rem;
+                }
+
+                p {
+                    font-size: 0.8em;
+                    color: #a0a0a0;
+                    line-height: 1.3;
+                    width: 80%;
+                }
+
+                .img {
+                    width: 2.5em;
+                    height: 2.5em;
+                    border-radius: 7px;
+                    border: 2px solid #1365f1;
+                    margin-bottom: 0.2rem;
+                }
+            }
+        }
     }
 }
