@@ -68,14 +68,14 @@ function LandingPageDivulgacao() {
                 </div>
             </section>
 
-            
+
             <section className="nossaHistoria">
                 <div className="informacoes">
                     <div className="titulo">
                         <h1>Nossa História</h1>
                     </div>
                     <div className="texto">
-                         <p>
+                        <p>
                             Fundado em 2019, o Projeto Handebol nasceu do sonho de unir atletas
                             apaixonados pelo esporte e criar um ambiente de crescimento,
                             competição e camaradagem.
