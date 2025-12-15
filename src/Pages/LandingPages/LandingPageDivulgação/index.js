@@ -8,6 +8,11 @@ function LandingPageDivulgacao() {
         <main className="landingPageDivulgacao">
             <Header />
 
+            <section className="imagemPrincipal">
+                <h1>Projeto Projeto</h1>
+                <p>Bem-vindos ao nosso site de divulgação. Bem-vindos ao nosso site de divulgação. Bem-vindos ao nosso site de divulgação.</p>
+            </section>
+
             <section className="numeros">
                 <div className="titulo">
                     <h1>Nossos Números</h1>

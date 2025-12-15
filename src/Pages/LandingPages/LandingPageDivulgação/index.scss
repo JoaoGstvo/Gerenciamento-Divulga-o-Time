@@ -4,6 +4,31 @@
     min-height: 100vh;
 
 
+    .imagemPrincipal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 7rem 2rem;
+
+        background-color: #000000af;
+        min-height: 40vh;
+        text-align: center;
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 1rem;
+
+        }
+
+        p {
+            font-size: 1em;
+            max-width: 500px;
+        }
+    }
+
+
     /* ================= NUMEROS ================= */
     .numeros {
         display: flex;
@@ -22,7 +47,7 @@
         }
 
         .informacoes {
-            width: 70%;
+            width: 60%;
             display: flex;
             justify-content: space-around;
 
