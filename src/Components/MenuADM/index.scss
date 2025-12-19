@@ -1,0 +1,56 @@
+.menuADM {
+    width: 250px;
+    background-color: #121416;
+    color: #a0a0a0;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+
+    .logoMenuADM {
+        padding: 0.5em;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        line-height: 1em;
+
+        p {
+            line-height: 1px;
+        }
+    }
+
+    .opcoesMenuADM {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: -1em;
+        align-items: center;
+
+        .opcao {
+            padding: 0.8em;
+            text-align: center;
+            width: 100%;
+            border: 1px solid #333639;
+            border-left: none;
+            border-right: none;
+            cursor: pointer;
+        }
+    }
+
+    .sair {
+        padding: 0.8em;
+        text-align: center;
+        width: 100%;
+        border: 1px solid #333639;
+        border-left: none;
+        border-right: none;
+        cursor: pointer;
+        color: red;
+    }
+}
