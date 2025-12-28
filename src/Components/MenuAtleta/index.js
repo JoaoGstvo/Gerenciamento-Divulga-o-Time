@@ -1,8 +1,8 @@
 import "./index.scss";
 
-function MenuADM() {
+function MenuAtleta() {
     return (
-        <main className="menuADM">
+        <main className="menuAtleta">
             <div className="logoMenu">
                 <h1>LOGO</h1>
                 <p>Admin Mode</p>
@@ -10,13 +10,13 @@ function MenuADM() {
 
             <section className="opcoesMenu">
                 <div className="opcao">
-                    <p>Dashboard</p>
+                    <p>Perfil</p>
                 </div>
                 <div className="opcao">
-                    <p>Atletas</p>
+                    <p>Eventos Pricipais</p>
                 </div>
                 <div className="opcao">
-                    <p>Eventos</p>
+                    <p>Calendário</p>
                 </div>
                 <div className="opcao">
                     <p>Informações</p>
@@ -30,4 +30,4 @@ function MenuADM() {
     );
 }
 
-export default MenuADM;
+export default MenuAtleta;
